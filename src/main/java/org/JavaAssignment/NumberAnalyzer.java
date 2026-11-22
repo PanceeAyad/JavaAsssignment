@@ -66,9 +66,9 @@ public class NumberAnalyzer {
      * Starting point of the program. It shows the menu again and again
      * using a do-while loop until the user chooses option 5 (Exit).
      *
-     *
+     *@param args command line arguments (not used in this version 27)
      */
-    static void main() {
+    public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
     Scanner sc = new Scanner(System.in);

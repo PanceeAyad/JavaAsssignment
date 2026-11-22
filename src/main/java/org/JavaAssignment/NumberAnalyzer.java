@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class NumberAnalyzer {
 
     //Method 1
 
@@ -66,9 +66,9 @@ public class Main {
      * Starting point of the program. It shows the menu again and again
      * using a do-while loop until the user chooses option 5 (Exit).
      *
-     * @param args command line arguments (not used)
+     *
      */
-    static void main(String[] args) {
+    static void main() {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
     Scanner sc = new Scanner(System.in);
